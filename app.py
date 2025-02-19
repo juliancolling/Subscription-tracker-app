@@ -16,7 +16,7 @@ st.sidebar.header("Add a New Subscription")
 new_subscription = st.sidebar.text_input("Subscription Name")
 new_start_date = st.sidebar.date_input("Start Date")
 new_renewal_period = st.sidebar.number_input("Renewal Period (days)", min_value=1, step=1)
-new_cost = st.sidebar.number_input("Cost ($)", min_value=0.0, step=0.01)
+new_cost = st.sidebar.number_input("Cost (£)", min_value=0.0, step=0.01)
 
 if st.sidebar.button("Add Subscription"):
     new_data = {
