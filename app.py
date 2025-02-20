@@ -30,4 +30,3 @@ if st.sidebar.button("Add Subscription"):
     df.to_csv('subscriptions.csv', index=False)
     st.success("Subscription added!")
     st.dataframe(df)
-    
